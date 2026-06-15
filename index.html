@@ -1,0 +1,2079 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charSet="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>SpaceX Engine – The Future of Gaming</title>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+        <link rel="modulepreload" href="./assets/main-CYXXZbJT.js"/>
+        <link rel="modulepreload" href="./assets/index-PuXPswiH.js"/>
+        <style>
+@layer properties {
+    @supports (((-webkit-hyphens: none)) and (not (margin-trim:inline))) or ((-moz-orient:inline) and (not (color:rgb(from red r g b)))) {
+        *,:before,:after,::backdrop {
+            --tw-rotate-x:initial;
+            --tw-rotate-y: initial;
+            --tw-rotate-z: initial;
+            --tw-skew-x: initial;
+            --tw-skew-y: initial;
+            --tw-border-style: solid;
+            --tw-font-weight: initial;
+            --tw-blur: initial;
+            --tw-brightness: initial;
+            --tw-contrast: initial;
+            --tw-grayscale: initial;
+            --tw-hue-rotate: initial;
+            --tw-invert: initial;
+            --tw-opacity: initial;
+            --tw-saturate: initial;
+            --tw-sepia: initial;
+            --tw-drop-shadow: initial;
+            --tw-drop-shadow-color: initial;
+            --tw-drop-shadow-alpha: 100%;
+            --tw-drop-shadow-size: initial
+        }
+    }
+}
+
+@layer theme {
+    :root,:host {
+        --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        --color-blue-600: oklch(54.6% .245 262.881);
+        --color-gray-600: oklch(44.6% .03 256.802);
+        --spacing: .25rem;
+        --text-2xl: 1.5rem;
+        --text-2xl--line-height: calc(2 / 1.5);
+        --text-3xl: 1.875rem;
+        --text-3xl--line-height: 1.2 ;
+        --font-weight-bold: 700;
+        --radius-lg: .5rem;
+        --radius-2xl: 1rem;
+        --default-font-family: var(--font-sans);
+        --default-mono-font-family: var(--font-mono)
+    }
+}
+
+@layer base {
+    *,:after,:before,::backdrop {
+        box-sizing: border-box;
+        border: 0 solid;
+        margin: 0;
+        padding: 0
+    }
+
+    ::file-selector-button {
+        box-sizing: border-box;
+        border: 0 solid;
+        margin: 0;
+        padding: 0
+    }
+
+    html,: host {
+        -webkit-text-size-adjust:100%;
+        tab-size: 4;
+        line-height: 1.5;
+        font-family: var(--default-font-family,ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
+        font-feature-settings: var(--default-font-feature-settings,normal);
+        font-variation-settings: var(--default-font-variation-settings,normal);
+        -webkit-tap-highlight-color: transparent
+    }
+
+    hr {
+        height: 0;
+        color: inherit;
+        border-top-width: 1px
+    }
+
+    abbr: where([title]) {
+        -webkit-text-decoration:underline dotted;
+        text-decoration: underline dotted
+    }
+
+    h1,h2,h3,h4,h5,h6 {
+        font-size: inherit;
+        font-weight: inherit
+    }
+
+    a {
+        color: inherit;
+        -webkit-text-decoration: inherit;
+        text-decoration: inherit
+    }
+
+    b,strong {
+        font-weight: bolder
+    }
+
+    code,kbd,samp,pre {
+        font-family: var(--default-mono-font-family,ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);
+        font-feature-settings: var(--default-mono-font-feature-settings,normal);
+        font-variation-settings: var(--default-mono-font-variation-settings,normal);
+        font-size: 1em
+    }
+
+    small {
+        font-size: 80%
+    }
+
+    sub,sup {
+        vertical-align: baseline;
+        font-size: 75%;
+        line-height: 0;
+        position: relative
+    }
+
+    sub {
+        bottom: -.25em
+    }
+
+    sup {
+        top: -.5em
+    }
+
+    table {
+        text-indent: 0;
+        border-color: inherit;
+        border-collapse: collapse
+    }
+
+    :-moz-focusring {
+        outline: auto
+    }
+
+    progress {
+        vertical-align: baseline
+    }
+
+    summary {
+        display: list-item
+    }
+
+    ol,ul,menu {
+        list-style: none
+    }
+
+    img,svg,video,canvas,audio,iframe,embed,object {
+        vertical-align: middle;
+        display: block
+    }
+
+    img,video {
+        max-width: 100%;
+        height: auto
+    }
+
+    button,input,select,optgroup,textarea {
+        font: inherit;
+        font-feature-settings: inherit;
+        font-variation-settings: inherit;
+        letter-spacing: inherit;
+        color: inherit;
+        opacity: 1;
+        background-color: #0000;
+        border-radius: 0
+    }
+
+    ::file-selector-button {
+        font: inherit;
+        font-feature-settings: inherit;
+        font-variation-settings: inherit;
+        letter-spacing: inherit;
+        color: inherit;
+        opacity: 1;
+        background-color: #0000;
+        border-radius: 0
+    }
+
+    :where(select: is([multiple],[size])) optgroup {
+        font-weight:bolder
+    }
+
+    :where(select: is([multiple],[size])) optgroup option {
+        padding-inline-start:20px
+    }
+
+    ::file-selector-button {
+        margin-inline-end:4px}
+
+    ::placeholder {
+        opacity: 1
+    }
+
+    @supports (not ((-webkit-appearance: -apple-pay-button))) or (contain-intrinsic-size:1px) {
+        ::placeholder {
+            color:currentColor
+        }
+
+        @supports (color: color-mix(in lab,red,red)) {
+            ::placeholder {
+                color:color-mix(in oklab,currentcolor 50%,transparent)
+            }
+        }
+    }
+
+    textarea {
+        resize: vertical
+    }
+
+    ::-webkit-search-decoration {
+        -webkit-appearance: none
+    }
+
+    ::-webkit-date-and-time-value {
+        min-height: 1lh;
+        text-align: inherit
+    }
+
+    ::-webkit-datetime-edit {
+        display: inline-flex
+    }
+
+    ::-webkit-datetime-edit-fields-wrapper {
+        padding: 0
+    }
+
+    ::-webkit-datetime-edit {
+        padding-block:0}
+
+    ::-webkit-datetime-edit-year-field {
+        padding-block:0}
+
+    ::-webkit-datetime-edit-month-field {
+        padding-block:0}
+
+    ::-webkit-datetime-edit-day-field {
+        padding-block:0}
+
+    ::-webkit-datetime-edit-hour-field {
+        padding-block:0}
+
+    ::-webkit-datetime-edit-minute-field {
+        padding-block:0}
+
+    ::-webkit-datetime-edit-second-field {
+        padding-block:0}
+
+    ::-webkit-datetime-edit-millisecond-field {
+        padding-block:0}
+
+    ::-webkit-datetime-edit-meridiem-field {
+        padding-block:0}
+
+    ::-webkit-calendar-picker-indicator {
+        line-height: 1
+    }
+
+    :-moz-ui-invalid {
+        box-shadow: none
+    }
+
+    button,input: where([type=button],[type=reset],[type=submit]) {
+        appearance:button
+    }
+
+    ::file-selector-button {
+        appearance: button
+    }
+
+    ::-webkit-inner-spin-button {
+        height: auto
+    }
+
+    ::-webkit-outer-spin-button {
+        height: auto
+    }
+
+    [hidden]: where(:not([hidden=until-found])) {
+        display:none!important
+    }
+}
+
+@layer components;@layer utilities {
+    .static {
+        position: static
+    }
+
+    .start {
+        inset-inline-start: var(--spacing)
+    }
+
+    .mb-2 {
+        margin-bottom: calc(var(--spacing) * 2)
+    }
+
+    .mb-4 {
+        margin-bottom: calc(var(--spacing) * 4)
+    }
+
+    .mb-6 {
+        margin-bottom: calc(var(--spacing) * 6)
+    }
+
+    .flex {
+        display: flex
+    }
+
+    .hidden {
+        display: none
+    }
+
+    .inline-block {
+        display: inline-block
+    }
+
+    .w-full {
+        width: 100%
+    }
+
+    .transform {
+        transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,)
+    }
+
+    .flex-col {
+        flex-direction: column
+    }
+
+    .items-center {
+        align-items: center
+    }
+
+    .justify-between {
+        justify-content: space-between
+    }
+
+    .gap-8 {
+        gap: calc(var(--spacing) * 8)
+    }
+
+    .rounded-2xl {
+        border-radius: var(--radius-2xl)
+    }
+
+    .rounded-lg {
+        border-radius: var(--radius-lg)
+    }
+
+    .border {
+        border-style: var(--tw-border-style);
+        border-width: 1px
+    }
+
+    .object-cover {
+        object-fit: cover
+    }
+
+    .p-5 {
+        padding: calc(var(--spacing) * 5)
+    }
+
+    .p-8 {
+        padding: calc(var(--spacing) * 8)
+    }
+
+    .px-6 {
+        padding-inline:calc(var(--spacing) * 6)}
+
+    .py-2 {
+        padding-block: calc(var(--spacing) * 2)
+    }
+
+    .text-2xl {
+        font-size: var(--text-2xl);
+        line-height: var(--tw-leading,var(--text-2xl--line-height))
+    }
+
+    .text-3xl {
+        font-size: var(--text-3xl);
+        line-height: var(--tw-leading,var(--text-3xl--line-height))
+    }
+
+    .font-bold {
+        --tw-font-weight: var(--font-weight-bold);
+        font-weight: var(--font-weight-bold)
+    }
+
+    .text-blue-600 {
+        color: var(--color-blue-600)
+    }
+
+    .text-gray-600 {
+        color: var(--color-gray-600)
+    }
+
+    .filter {
+        filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,)
+    }
+
+    @media(min-width: 48rem) {
+        .md\:w-\[45\%\] {
+            width:45%
+        }
+
+        .md\:w-\[55\%\] {
+            width: 55%
+        }
+
+        .md\:flex-row {
+            flex-direction: row
+        }
+    }
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    color: #e8e8ea;
+    scroll-behavior: smooth;
+    background: #050505;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,SF Pro Display,Segoe UI,system-ui,sans-serif
+}
+
+code {
+    font-family: Menlo,Monaco,Consolas,Courier New,monospace
+}
+
+.spacex-root {
+    background: #050505;
+    min-height: 100vh;
+    overflow-x: hidden
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(32px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@keyframes pulseGlow {
+    0%,to {
+        box-shadow: 0 0 24px 4px #0071e359
+    }
+
+    50% {
+        box-shadow: 0 0 48px 12px #0071e399
+    }
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -200%
+    }
+
+    to {
+        background-position: 200%
+    }
+}
+
+.hero-section {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 6rem 1.5rem 4rem;
+    display: flex;
+    position: relative;
+    overflow: hidden
+}
+
+.hero-glow {
+    pointer-events: none;
+    background: radial-gradient(circle 80% at 50% 30%, rgba(0,174,255,.22), transparent 70%);
+    position: absolute;
+    inset: 0;
+}
+
+.hero-content {
+    z-index: 1;
+    max-width: 820px;
+    animation: .9s both fadeUp;
+    position: relative
+}
+
+.hero-badge {
+    color: #60aaff;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    background: #0071e31a;
+    border: 1px solid #0071e380;
+    border-radius: 999px;
+    margin-bottom: 1.5rem;
+    padding: .35rem 1rem;
+    font-size: .75rem;
+    font-weight: 600;
+    display: inline-block
+}
+
+.hero-title {
+    letter-spacing: -.03em;
+    color: #f0f0f5;
+    margin: 0 0 1.2rem;
+    font-size: clamp(2.4rem,6vw,5rem);
+    font-weight: 800;
+    line-height: 1.08
+}
+
+.hero-title-accent {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(135deg,#0071e3,#60aaff 60%,#a8d4ff) 0 0/200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: 4s linear infinite shimmer
+}
+
+.hero-sub {
+    color: #8e8ea0;
+    max-width: 560px;
+    margin: 0 auto 2.5rem;
+    font-size: clamp(1rem,2vw,1.2rem);
+    line-height: 1.65
+}
+
+.hero-buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    display: flex
+}
+
+.btn-primary {
+    color: #fff;
+    background: #0071e3;
+    border-radius: 12px;
+    align-items: center;
+    gap: .5rem;
+    padding: .85rem 2rem;
+    font-size: .95rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform .2s,box-shadow .2s,background .2s;
+    animation: 3s ease-in-out infinite pulseGlow;
+    display: inline-flex;
+    box-shadow: 0 0 24px 4px #0071e366
+}
+
+.btn-primary:hover {
+    background: #0087ff;
+    transform: scale(1.05);
+    box-shadow: 0 0 40px 10px #0071e399
+}
+
+.btn-secondary {
+    color: #60aaff;
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    background: #121214cc;
+    border: 1px solid #0071e366;
+    border-radius: 12px;
+    align-items: center;
+    gap: .5rem;
+    padding: .85rem 2rem;
+    font-size: .95rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform .2s,border-color .2s,box-shadow .2s;
+    display: inline-flex
+}
+
+.btn-secondary:hover {
+    border-color: #0071e3;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px 4px #0071e34d
+}
+
+.section {
+    padding: 6rem 1.5rem
+}
+
+.section-alt {
+    background: #0c0c10b3
+}
+
+.section-inner {
+    max-width: 1100px;
+    margin: 0 auto
+}
+
+.section-title {
+    letter-spacing: -.025em;
+    text-align: center;
+    color: #f0f0f5;
+    margin: 0 0 .75rem;
+    font-size: clamp(1.8rem,4vw,2.8rem);
+    font-weight: 700
+}
+
+.section-sub {
+    text-align: center;
+    color: #8e8ea0;
+    max-width: 520px;
+    margin: 0 auto 3rem;
+    font-size: 1.05rem;
+    line-height: 1.6
+}
+
+.video-container {
+    background: #121214;
+    border: 1.5px solid #0071e380;
+    border-radius: 20px;
+    padding: 6px;
+    animation: 5s ease-in-out infinite pulseGlow;
+    box-shadow: 0 0 60px #0071e333,0 0 120px #0071e314
+}
+
+.video-inner {
+    aspect-ratio: 16/9;
+    border-radius: 16px;
+    overflow: hidden
+}
+
+.video-frame {
+    border: none;
+    width: 100%;
+    height: 100%;
+    display: block
+}
+
+.features-grid {
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    gap: 1.5rem;
+    display: grid
+}
+
+.feature-card {
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    background: #121214d9;
+    border: 1px solid #0071e32e;
+    border-radius: 18px;
+    padding: 2rem 1.75rem;
+    transition: transform .25s,border-color .25s,box-shadow .25s
+}
+
+.feature-card:hover {
+    border-color: #0071e399;
+    transform: scale(1.04)translateY(-4px);
+    box-shadow: 0 8px 40px #0071e333
+}
+
+.feature-icon {
+    color: #0071e3;
+    background: #0071e31f;
+    border-radius: 14px;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    margin-bottom: 1.25rem;
+    transition: box-shadow .25s;
+    display: inline-flex;
+    box-shadow: 0 0 16px 2px #0071e340
+}
+
+.feature-card:hover .feature-icon {
+    box-shadow: 0 0 28px 6px #0071e373
+}
+
+.feature-title {
+    color: #f0f0f5;
+    margin: 0 0 .6rem;
+    font-size: 1.1rem;
+    font-weight: 700
+}
+
+.feature-desc {
+    color: #8e8ea0;
+    margin: 0;
+    font-size: .9rem;
+    line-height: 1.65
+}
+
+.pricing-grid {
+    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+    align-items: start;
+    gap: 1.5rem;
+    display: grid
+}
+
+.pricing-card {
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    background: #121214d9;
+    border: 1px solid #0071e333;
+    border-radius: 22px;
+    padding: 2.5rem 2rem 2rem;
+    transition: transform .25s,box-shadow .25s;
+    position: relative
+}
+
+.pricing-card:hover {
+    transform: scale(1.03)translateY(-4px);
+    box-shadow: 0 12px 50px #0071e32e
+}
+
+.pricing-card--featured {
+    border-color: #0071e399;
+    box-shadow: 0 0 60px #0071e333
+}
+
+.pricing-badge {
+    color: #fff;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background: #0071e3;
+    border-radius: 999px;
+    padding: .3rem 1rem;
+    font-size: .72rem;
+    font-weight: 700;
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translate(-50%)
+}
+
+.pricing-plan {
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #60aaff;
+    margin-bottom: .6rem;
+    font-size: .85rem;
+    font-weight: 600
+}
+
+.pricing-price {
+    letter-spacing: -.04em;
+    color: #f0f0f5;
+    margin-bottom: 1.75rem;
+    font-size: 3rem;
+    font-weight: 800
+}
+
+.pricing-features {
+    flex-direction: column;
+    gap: .65rem;
+    margin: 0 0 2rem;
+    padding: 0;
+    list-style: none;
+    display: flex
+}
+
+.pricing-feature {
+    color: #c0c0cc;
+    align-items: center;
+    gap: .55rem;
+    font-size: .9rem;
+    display: flex
+}
+
+.pricing-check {
+    color: #0071e3;
+    flex-shrink: 0
+}
+
+.pricing-btn {
+    text-align: center;
+    color: #60aaff;
+    background: #0071e31f;
+    border: 1px solid #0071e366;
+    border-radius: 12px;
+    padding: .8rem 1.5rem;
+    font-size: .9rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background .2s,border-color .2s,transform .2s;
+    display: block
+}
+
+.pricing-btn:hover {
+    background: #0071e340;
+    border-color: #0071e3;
+    transform: scale(1.02)
+}
+
+.pricing-btn--featured {
+    color: #fff;
+    background: #0071e3;
+    border-color: #0071e3;
+    box-shadow: 0 0 24px 4px #0071e359
+}
+
+.pricing-btn--featured:hover {
+    background: #0087ff;
+    border-color: #0087ff;
+    transform: scale(1.03);
+    box-shadow: 0 0 36px 8px #0071e380
+}
+
+.footer {
+    background: #050505;
+    border-top: 1px solid #ffffff0f;
+    padding: 4rem 1.5rem 2rem
+}
+
+.footer-inner {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 2.5rem;
+    max-width: 1100px;
+    margin: 0 auto 3rem;
+    display: grid
+}
+
+@media(max-width: 768px) {
+    .footer-inner {
+        grid-template-columns:1fr 1fr
+    }
+}
+
+@media(max-width: 480px) {
+    .footer-inner {
+        grid-template-columns:1fr
+    }
+}
+
+.footer-logo {
+    letter-spacing: -.02em;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(135deg,#0071e3,#60aaff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 1.3rem;
+    font-weight: 800
+}
+
+.footer-tagline {
+    color: #8e8ea0;
+    margin: .5rem 0 0;
+    font-size: .875rem;
+    line-height: 1.55
+}
+
+.footer-links-title {
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #60aaff;
+    margin: 0 0 1rem;
+    font-size: .75rem;
+    font-weight: 700
+}
+
+.footer-link {
+    color: #8e8ea0;
+    margin-bottom: .55rem;
+    font-size: .875rem;
+    text-decoration: none;
+    transition: color .2s;
+    display: block
+}
+
+.footer-link:hover {
+    color: #e8e8ea
+}
+
+.btn-telegram {
+    color: #fff;
+    background: #24a1de;
+    border-radius: 10px;
+    align-items: center;
+    gap: .5rem;
+    padding: .7rem 1.4rem;
+    font-size: .875rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background .2s,transform .2s;
+    display: inline-flex
+}
+
+.btn-telegram:hover {
+    background: #2cb4f5;
+    transform: scale(1.05)
+}
+
+.footer-copy {
+    text-align: center;
+    color: #4a4a5a;
+    border-top: 1px solid #ffffff0d;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    font-size: .8rem
+}
+
+@property --tw-rotate-x {
+    syntax: "*";
+    inherits: false
+}
+
+@property --tw-rotate-y {
+    syntax: "*";
+    inherits: false
+}
+
+@property --tw-rotate-z {
+    syntax: "*";
+    inherits: false
+}
+
+@property --tw-skew-x {
+    syntax: "*";
+    inherits: false
+}
+
+@property --tw-skew-y {
+    syntax: "*";
+    inherits: false
+}
+
+@property --tw-border-style {
+    syntax: "*";
+    inherits: false;
+    initial-value: solid
+}
+
+@property --tw-font-weight {
+    syntax: "*";
+    inherits: false
+}
+
+@property --tw-blur {
+    syntax: "*";
+    inherits: false
+}
+
+@property --tw-brightness {
+    syntax: "*";
+    inherits: false
+}
+
+@property --tw-contrast {
+    syntax: "*";
+    inherits: false
+}
+
+@property --tw-grayscale {
+    syntax: "*";
+    inherits: false
+}
+
+@property --tw-hue-rotate {
+    syntax: "*";
+    inherits: false
+}
+
+@property --tw-invert {
+    syntax: "*";
+    inherits: false
+}
+
+@property --tw-opacity {
+    syntax: "*";
+    inherits: false
+}
+
+@property --tw-saturate {
+    syntax: "*";
+    inherits: false
+}
+
+@property --tw-sepia {
+    syntax: "*";
+    inherits: false
+}
+
+@property --tw-drop-shadow {
+    syntax: "*";
+    inherits: false
+}
+
+@property --tw-drop-shadow-color {
+    syntax: "*";
+    inherits: false
+}
+
+@property --tw-drop-shadow-alpha {
+    syntax: "<percentage>";
+    inherits: false;
+    initial-value: 100%
+}
+
+@property --tw-drop-shadow-size {
+    syntax: "*";
+    inherits: false
+}
+
+/* Download Store Section */
+.store-section {
+    padding: 6rem 1.5rem;
+    position: relative;
+    background: #08080c;
+    border-top: 1px solid #0071e31f;
+    border-bottom: 1px solid #0071e31f;
+}
+
+.store-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.75rem;
+    display: grid;
+    margin-top: 2.5rem;
+}
+
+.store-card {
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    background: #121214d9;
+    border: 1px solid #0071e32e;
+    border-radius: 20px;
+    padding: 2.25rem 1.75rem;
+    transition: transform .25s, border-color .25s, box-shadow .25s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.store-card:hover {
+    border-color: #0071e399;
+    transform: scale(1.03) translateY(-4px);
+    box-shadow: 0 8px 40px #0071e333;
+}
+
+.store-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.store-icon-wrapper {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #16161a;
+    border: 1px solid #ffffff15;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    flex-shrink: 0;
+}
+
+.store-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.store-title-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.store-name {
+    color: #f0f0f5;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.store-package {
+    color: #60aaff;
+    font-family: monospace;
+    font-size: 0.75rem;
+    margin-top: 0.15rem;
+    opacity: 0.8;
+}
+
+.store-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 1.75rem;
+}
+
+.store-meta-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.875rem;
+    border-bottom: 1px dashed #ffffff0f;
+    padding-bottom: 0.5rem;
+}
+
+.store-meta-label {
+    color: #8e8ea0;
+}
+
+.store-meta-value {
+    color: #f0f0f5;
+    font-weight: 600;
+}
+
+.badge {
+    padding: 0.25rem 0.65rem;
+    border-radius: 8px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.badge-safe {
+    color: #10b981;
+    background: #10b9811a;
+    border: 1px solid #10b9814d;
+    box-shadow: 0 0 10px #10b98126;
+}
+
+.badge-danger {
+    color: #ef4444;
+    background: #ef44441a;
+    border: 1px solid #ef44444d;
+    box-shadow: 0 0 10px #ef444426;
+}
+
+.badge-updated {
+    color: #3b82f6;
+    background: #3b82f61a;
+    border: 1px solid #3b82f64d;
+}
+
+.badge-outdated {
+    color: #f59e0b;
+    background: #f59e0b1a;
+    border: 1px solid #f59e0b4d;
+}
+
+.store-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: auto;
+}
+
+.mirror-select-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+    text-align: left;
+}
+
+.mirror-label {
+    color: #8e8ea0;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.mirror-select {
+    background: #121214;
+    border: 1px solid #0071e34d;
+    color: #f0f0f5;
+    border-radius: 10px;
+    padding: 0.65rem 1rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    width: 100%;
+}
+
+.mirror-select:focus {
+    border-color: #0071e3;
+    box-shadow: 0 0 12px #0071e34d;
+}
+
+.store-btn {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    padding: 0.85rem 1.5rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+    display: inline-flex;
+    gap: 0.5rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+.store-btn-download {
+    color: #fff;
+    background: #0071e3;
+    box-shadow: 0 0 20px #0071e34d;
+    border: none;
+}
+
+.store-btn-download:hover {
+    background: #0087ff;
+    transform: scale(1.02);
+    box-shadow: 0 0 30px #0071e380;
+}
+
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    color: #8e8ea0;
+}
+
+.spinner {
+    border: 3px solid #16161a;
+    border-top: 3px solid #0071e3;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin-bottom: 1rem;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* ── Mods Section ── */
+.mods-section {
+    padding: 6rem 1.5rem;
+    position: relative;
+    background: #0a0a10;
+}
+
+.mods-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+    margin-bottom: 2.75rem;
+    justify-content: center;
+    text-align: left;
+}
+
+.mods-icon-bg {
+    color: #0071e3;
+    background: #0071e31f;
+    border: 1px solid #0071e34d;
+    border-radius: 16px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    box-shadow: 0 0 18px #0071e340;
+    margin-top: 4px;
+}
+
+.mods-title {
+    text-align: left !important;
+    margin-bottom: 0.4rem !important;
+}
+
+.mods-sub {
+    text-align: left !important;
+    margin: 0 !important;
+}
+
+.mods-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+
+.mod-card {
+    background: #121214d9;
+    border: 1px solid #ffffff0f;
+    border-radius: 20px;
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+}
+
+.mod-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--mod-accent, #0071e3), transparent);
+    opacity: 0.7;
+    border-radius: 20px 20px 0 0;
+}
+
+.mod-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    border-color: var(--mod-accent, #0071e3);
+    box-shadow: 0 12px 40px color-mix(in srgb, var(--mod-accent, #0071e3) 25%, transparent);
+}
+
+.mod-card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mod-icon-box {
+    width: 46px;
+    height: 46px;
+    border-radius: 12px;
+    background: color-mix(in srgb, var(--mod-accent, #0071e3) 15%, transparent);
+    border: 1px solid color-mix(in srgb, var(--mod-accent, #0071e3) 35%, transparent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--mod-accent, #0071e3);
+    box-shadow: 0 0 14px color-mix(in srgb, var(--mod-accent, #0071e3) 20%, transparent);
+    flex-shrink: 0;
+}
+
+.mod-type-badge {
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 0.25rem 0.75rem;
+    border-radius: 8px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.mod-name {
+    color: #f0f0f5;
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.mod-desc {
+    color: #8e8ea0;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    margin: 0;
+    flex: 1;
+}
+
+.mod-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.mod-meta-item {
+    color: #60aaff;
+    font-size: 0.78rem;
+    font-weight: 600;
+    background: #0071e31a;
+    border: 1px solid #0071e32e;
+    border-radius: 6px;
+    padding: 0.15rem 0.55rem;
+}
+
+.mod-meta-sep {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #4a4a5a;
+    flex-shrink: 0;
+    display: none;
+}
+
+.mod-stars {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-left: auto;
+}
+
+.mod-download-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background: var(--mod-accent, #0071e3);
+    color: #fff;
+    font-size: 0.92rem;
+    font-weight: 700;
+    padding: 0.8rem 1rem;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: filter 0.2s, transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 0 18px color-mix(in srgb, var(--mod-accent, #0071e3) 35%, transparent);
+    margin-top: 0.25rem;
+}
+
+.mod-download-btn:hover {
+    filter: brightness(1.15);
+    transform: scale(1.03);
+    box-shadow: 0 0 30px color-mix(in srgb, var(--mod-accent, #0071e3) 55%, transparent);
+}
+
+@media (max-width: 600px) {
+    .mods-header {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .mods-title,
+    .mods-sub {
+        text-align: left !important;
+    }
+}
+
+
+/* ── Language Switcher ── */
+.sx-lang-switcher {
+  position: fixed; top: 1rem; right: 1rem; z-index: 9999;
+  display: flex; gap: 0.35rem;
+  background: rgba(18,18,20,0.88);
+  backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(0,113,227,0.3); border-radius: 14px;
+  padding: 0.4rem 0.5rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.55);
+}
+html[dir="rtl"] .sx-lang-switcher { right: auto; left: 1rem; }
+.sx-lang-btn {
+  background: transparent; border: 1px solid transparent; border-radius: 9px;
+  color: #8e8ea0; cursor: pointer; font-size: 0.75rem; font-weight: 700;
+  letter-spacing: 0.04em; padding: 0.3rem 0.6rem;
+  transition: background 0.18s, color 0.18s, border-color 0.18s;
+  white-space: nowrap;
+}
+.sx-lang-btn:hover { background: rgba(0,113,227,0.15); color: #f0f0f5; }
+.sx-lang-btn.active {
+  background: #0071e3; border-color: #0071e3; color: #fff;
+  box-shadow: 0 0 12px rgba(0,113,227,0.5);
+}
+/* RTL */
+html[dir="rtl"] body { font-family: 'Segoe UI', Tahoma, Arial, sans-serif; }
+html[dir="rtl"] .hero-content,
+html[dir="rtl"] .section-title,
+html[dir="rtl"] .section-sub,
+html[dir="rtl"] .footer-tagline { text-align: right; }
+html[dir="rtl"] .hero-buttons { justify-content: flex-end; }
+html[dir="rtl"] .hero-sub { text-align: right; margin-right: 0; margin-left: auto; }
+html[dir="rtl"] .footer-inner { direction: rtl; }
+html[dir="rtl"] .mods-header { flex-direction: row-reverse; text-align: right; }
+html[dir="rtl"] .mods-title, html[dir="rtl"] .mods-sub { text-align: right !important; }
+html[dir="rtl"] .store-title-container, html[dir="rtl"] .mirror-label { text-align: right; }
+html[dir="rtl"] .mod-card-top { flex-direction: row-reverse; }
+</style>
+        <style>
+            /* Fix: mod icon box overflow */
+            .mod-icon-box {
+                overflow: hidden;
+                width: 46px !important;
+                height: 46px !important;
+                min-width: 46px;
+                min-height: 46px;
+            }
+            .mod-icon-box img {
+                width: 100% !important;
+                height: 100% !important;
+                max-width: 46px;
+                max-height: 46px;
+                object-fit: cover;
+                display: block;
+            }
+            /* Fix: store icon wrapper */
+            .store-icon-wrapper {
+                overflow: hidden;
+                width: 60px !important;
+                height: 60px !important;
+                min-width: 60px;
+            }
+            .store-icon {
+                width: 100% !important;
+                height: 100% !important;
+                max-width: 60px;
+                max-height: 60px;
+                object-fit: cover;
+                display: block;
+            }
+            /* Fix: global img reset */
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+            .mod-icon-box img, .store-icon {
+                height: 100% !important;
+            }
+        </style>
+    </head>
+    <body>
+        <!--$-->
+        <div class="spacex-root">
+            <nav id="topnav">
+                <a href="#" class="logo-lnk">SPACEX</a>
+                <ul class="nav-ul">
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#download">Download</a></li>
+                </ul>
+                <a href="#download" class="nav-dl"><span>Free Download</span></a>
+            </nav>
+            <section id="hero" class="hero-section">
+                <div class="hero-inner">
+                    <div class="hero-above">
+                        <div class="hero-above-bar"></div>
+                        <div class="hero-above-txt">Android Gaming Tool · Secure Injector</div>
+                        <div class="live-dot"></div>
+                    </div>
+                    <h1 class="hero-h1">
+                        <span class="w1">SPACEX ENGINE</span>
+                        <span class="w2">THE FUTURE OF</span>
+                        <span class="w3">GAME HACKS</span>
+                    </h1>
+                    <div class="hero-lower">
+                        <p class="hero-p">SpaceX Engine combines safe injection, low-latency performance boosts, and stealth protection in one polished toolkit — built for fast, reliable gaming sessions.</p>
+                        <div class="hero-btns">
+                            <a href="https://github.com/AlexMohamedAfk/Zobr/releases/download/SpaceX/app-debug.apk" class="btn-get" download="">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.44 9.8 8.21 11.39.6.1.82-.26.82-.57v-2.24c-3.02.56-3.8-.73-4.04-1.41-.13-.34-.72-1.41-1.23-1.7-.42-.22-1.02-.77-.01-.79.94-.01 1.62.87 1.85 1.23 1.08 1.82 2.8 1.31 3.5.99.1-.78.42-1.31.76-1.6-2.67-.3-5.46-1.34-5.46-5.93 0-1.3.46-2.38 1.23-3.22-.12-.3-.54-1.53.12-3.18 0 0 1.01-.32 3.3 1.23.96-.27 1.98-.4 3-.4s2.04.13 3 .4c2.3-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.63-5.48 5.93.43.37.81 1.1.81 2.22v3.3c0 .32.22.69.83.57A12.02 12.02 0 0024 12C24 5.37 18.63 0 12 0z"/></svg>
+                                Free Download
+                            </a>
+                            <a href="https://t.me/ImGuiUiMaker" class="btn-ghost-lnk" target="_blank" rel="noreferrer">Buy License <span class="arr">→</span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="mq">
+                <div class="mq-inner">
+                    <span class="mq-item bright">SPACEX ENGINE</span>
+                    <span class="mq-item">Secure Injection</span>
+                    <span class="mq-item bright">Wallhack</span>
+                    <span class="mq-item">Aim Assist</span>
+                    <span class="mq-item bright">FPS Boost</span>
+                    <span class="mq-item">Stealth Mode</span>
+                    <span class="mq-item bright">Auto Updates</span>
+                    <span class="mq-item">Low Latency</span>
+                    <span class="mq-item bright">Safe Mode</span>
+                    <span class="mq-item">Android & Windows</span>
+                    <span class="mq-item bright">Discord Support</span>
+                </div>
+            </div>
+            <div class="nums-strip">
+                <div class="nblock rv"><div class="nblock-val"><span class="ctr" data-to="5">0</span><em>+</em></div><div class="nblock-lbl">Game Modes Supported</div></div>
+                <div class="nblock rv"><div class="nblock-val"><span class="ctr" data-to="99">0</span><em>%</em></div><div class="nblock-lbl">Stealth Success</div></div>
+                <div class="nblock rv"><div class="nblock-val"><span class="ctr" data-to="30">0</span><em>ms</em></div><div class="nblock-lbl">Latency Reduction</div></div>
+                <div class="nblock rv"><div class="nblock-val" style="font-size:40px">C<em>#</em></div><div class="nblock-lbl">Built with C#</div></div>
+            </div>
+            <section class="section" id="video">
+                <div class="section-inner">
+                    <h2 class="section-title" data-i18n="video_title">See It in Action</h2>
+                    <p class="section-sub" data-i18n="video_sub">Watch the engine tear through every session with precision.</p>
+                    <div class="video-container">
+                        <div class="video-inner">
+                            <iframe class="video-frame" src="https://youtu.be/lGnk0ivTzHE?si=RHw03HNzmEDK16M0" title="SpaceX Engine Demo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section-alt" id="features">
+                <div class="section-inner">
+                    <h2 class="section-title" data-i18n="features_title">Cheat Features</h2>
+                    <p class="section-sub" data-i18n="features_sub">Every module built for reliability and speed.</p>
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield" aria-hidden="true">
+                                    <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="feature-title" data-i18n="f1_title">Safe Injection</h3>
+                            <p class="feature-desc" data-i18n="f1_desc">Kernel-level bypass with dynamic signature rotation keeps your account untouchable on every match launch.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye" aria-hidden="true">
+                                    <path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                            </div>
+                            <h3 class="feature-title" data-i18n="f2_title">Wallhack</h3>
+                            <p class="feature-desc" data-i18n="f2_desc">Full ESP with distance tags, health bars, and loot highlights rendered at native frame rate — never miss a target.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap" aria-hidden="true">
+                                    <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="feature-title" data-i18n="f3_title">FPS Optimization</h3>
+                            <p class="feature-desc" data-i18n="f3_desc">Adaptive render-thread tuning squeezes out every extra frame, cutting input lag and stutters to zero.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lock" aria-hidden="true">
+                                    <rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect>
+                                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                                </svg>
+                            </div>
+                            <h3 class="feature-title" data-i18n="f4_title">Anti-Ban Security</h3>
+                            <p class="feature-desc" data-i18n="f4_desc">Real-time detection monitoring with instant stealth mode toggling and automatic log sanitization.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+<!-- Game Versions Store Section -->
+            <section class="mods-section" id="download">
+                <div class="section-inner">
+                    <div class="mods-header">
+                        <div class="mods-icon-bg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z"/><path d="M12 22V12"/><path d="m3.3 7 7.703 4.734a2 2 0 0 0 1.994 0L20.7 7"/><path d="m7.5 4.27 9 5.15"/></svg>
+                        </div>
+                        <div>
+                            <h2 class="section-title mods-title" data-i18n="mods_title">Mod Downloads</h2>
+                            <p class="section-sub mods-sub" data-i18n="mods_sub">Direct downloads and high-speed mirror links — all verified and ready to use.</p>
+                        </div>
+                    </div>
+                    <div class="mods-grid" id="store-grid">
+                        <div class="loading-container"><div class="spinner"></div><p data-i18n="loading">Loading versions...</p></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="pricing">
+                <div class="section-inner">
+                    <h2 class="section-title" data-i18n="pricing_title">Choose Your Plan</h2>
+                    <p class="section-sub" data-i18n="pricing_sub">Flexible licensing — no subscriptions forced on you.</p>
+                    <div class="pricing-grid">
+                        <div class="pricing-card ">
+                            <div class="pricing-plan" data-i18n="plan1">3 Day</div>
+                            <div class="pricing-price" data-i18n="plan1_price">150 EGP / 5$ USDT</div>
+                            <ul class="pricing-features">
+                                <li class="pricing-feature">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check pricing-check" aria-hidden="true">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg>
+                                    <span data-i18n="plan1_f1">3-day access</span>
+                                </li>
+                                <li class="pricing-feature">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check pricing-check" aria-hidden="true">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg>
+                                    <span data-i18n="plan1_f2">All cheat modules</span>
+                                </li>
+                                <li class="pricing-feature">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check pricing-check" aria-hidden="true">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg>
+                                    <span data-i18n="plan1_f3">Basic support</span>
+                                </li>
+                                <li class="pricing-feature">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check pricing-check" aria-hidden="true">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg>
+                                    <span data-i18n="plan1_f4">Single device</span>
+                                </li>
+                            </ul>
+                            <a href="https://t.me/ImGuiUiMaker" target="_blank" rel="noreferrer" class="pricing-btn "><span data-i18n="purchase">Purchase Now</span></a>
+                        </div>
+                        <div class="pricing-card ">
+                            <div class="pricing-plan" data-i18n="plan2">1 Week</div>
+                            <div class="pricing-price" data-i18n="plan2_price">200 EGP / 10$ USDT</div>
+                            <ul class="pricing-features">
+                                <li class="pricing-feature">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check pricing-check" aria-hidden="true">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg>
+                                    <span data-i18n="plan2_f1">7-day access</span>
+                                </li>
+                                <li class="pricing-feature">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check pricing-check" aria-hidden="true">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg>
+                                    <span data-i18n="plan2_f2">All cheat modules</span>
+                                </li>
+                                <li class="pricing-feature">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check pricing-check" aria-hidden="true">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg>
+                                    <span data-i18n="plan2_f3">Priority support</span>
+                                </li>
+                                <li class="pricing-feature">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check pricing-check" aria-hidden="true">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg>
+                                    <span data-i18n="plan2_f4">1 device</span>
+                                </li>
+                            </ul>
+                            <a href="https://t.me/ImGuiUiMaker" target="_blank" rel="noreferrer" class="pricing-btn "><span data-i18n="purchase">Purchase Now</span></a>
+                        </div>
+                        <div class="pricing-card pricing-card--featured">
+                            <div class="pricing-badge" data-i18n="most_popular">Most Popular</div>
+                            <div class="pricing-plan" data-i18n="plan3">1 Month</div>
+                            <div class="pricing-price" data-i18n="plan3_price">400 EGP / 20$ USDT</div>
+                            <ul class="pricing-features">
+                                <li class="pricing-feature">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check pricing-check" aria-hidden="true">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg>
+                                    <span data-i18n="plan3_f1">30-day access</span>
+                                </li>
+                                <li class="pricing-feature">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check pricing-check" aria-hidden="true">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg>
+                                    <span data-i18n="plan3_f2">All cheat modules</span>
+                                </li>
+                                <li class="pricing-feature">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check pricing-check" aria-hidden="true">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg>
+                                    <span data-i18n="plan3_f3">VIP support</span>
+                                </li>
+                                <li class="pricing-feature">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check pricing-check" aria-hidden="true">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg>
+                                    <span data-i18n="plan3_f4">1 device</span>
+                                </li>
+                                <li class="pricing-feature">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check pricing-check" aria-hidden="true">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg>
+                                    <span data-i18n="plan3_f5">Auto-updates</span>
+                                </li>
+                            </ul>
+                            <a href="https://t.me/ImGuiUiMaker" target="_blank" rel="noreferrer" class="pricing-btn pricing-btn--featured"><span data-i18n="purchase">Purchase Now</span></a>
+                        </div>
+                        <div class="pricing-card ">
+                            <div class="pricing-plan" data-i18n="plan4">2 Month</div>
+                            <div class="pricing-price" data-i18n="plan4_price">600 EGP / 30$ USDT</div>
+                            <ul class="pricing-features">
+                                <li class="pricing-feature">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check pricing-check" aria-hidden="true">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg>
+                                    <span data-i18n="plan4_f1">60-day access</span>
+                                </li>
+                                <li class="pricing-feature">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check pricing-check" aria-hidden="true">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg>
+                                    <span data-i18n="plan4_f2">All cheat modules</span>
+                                </li>
+                                <li class="pricing-feature">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check pricing-check" aria-hidden="true">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg>
+                                    <span data-i18n="plan4_f3">VIP support</span>
+                                </li>
+                                <li class="pricing-feature">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check pricing-check" aria-hidden="true">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg>
+                                    <span data-i18n="plan4_f4">2 devices</span>
+                                </li>
+                                <li class="pricing-feature">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check pricing-check" aria-hidden="true">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg>
+                                    <span data-i18n="plan4_f5">Auto-updates</span>
+                                </li>
+                                <li class="pricing-feature">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check pricing-check" aria-hidden="true">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg>
+                                    <span data-i18n="plan4_f6">Early access</span>
+                                </li>
+                            </ul>
+                            <a href="https://t.me/ImGuiUiMaker" target="_blank" rel="noreferrer" class="pricing-btn "><span data-i18n="purchase">Purchase Now</span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="footer-inner">
+                    <div class="footer-brand">
+                        <span class="footer-logo">SpaceX Engine</span>
+                        <p class="footer-tagline" data-i18n="footer_tagline">Built for dominance. Engineered for security.</p>
+                    </div>
+                    <div class="footer-links">
+                        <h4 class="footer-links-title" data-i18n="footer_links">Quick Links</h4>
+                        <a href="#video" class="footer-link" data-i18n="footer_video">Video</a>
+                        <a href="#features" class="footer-link" data-i18n="footer_features">Features</a>
+                        <a href="#pricing" class="footer-link" data-i18n="footer_pricing">Pricing</a>
+                        <a href="#download" class="footer-link" data-i18n="footer_dl">Download</a>
+                        <a href="#download" class="footer-link" data-i18n="footer_dls">Downloads</a>
+                    </div>
+                    <div class="footer-links">
+                        <h4 class="footer-links-title" data-i18n="footer_support">Support</h4>
+                        <a href="#" class="footer-link" data-i18n="footer_faq">FAQ</a>
+                        <a href="#" class="footer-link" data-i18n="footer_terms">Terms of Use</a>
+                        <a href="#" class="footer-link" data-i18n="footer_privacy">Privacy Policy</a>
+                    </div>
+                    <div class="footer-telegram">
+                        <h4 class="footer-links-title" data-i18n="footer_community">Community</h4>
+                        <a href="https://t.me/SpaceXLoader" class="btn-telegram" target="_blank" rel="noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send" aria-hidden="true">
+                                <path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path>
+                                <path d="m21.854 2.147-10.94 10.939"></path>
+                            </svg>
+                            Join Telegram Channel
+                        </a>
+                        <a href="https://t.me/ImGuiUiMaker" class="btn-telegram" target="_blank" rel="noreferrer" style="margin-top:0.5rem">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-credit-card" aria-hidden="true">
+                                <rect width="20" height="14" x="2" y="5" rx="2"></rect>
+                                <line x1="2" x2="22" y1="10" y2="10"></line>
+                            </svg>
+                            Buy License (@ImGuiUiMaker)
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-copy">© 
+                <!-- -->
+                2026 <span data-i18n="footer_copy">SpaceX Engine. All rights reserved.</span></div>
+            </footer>
+        </div>
+        <script>
+        // Store Section - Dynamic loader
+        const STORE_DATA = [
+            {id:"1",name:"PUBG Global",packageName:"com.tencent.ig",version:"1.1",apkUrl:"https://github.com/AlexMohamedAfk/root/releases/download/SpaceX/GL.apk",iconUrl:"https://raw.githubusercontent.com/AlexMohamedAfk/root/main/GL.png",isSafe:true,statusLabel:"Safe",lastUpdate:"Updated"},
+            {id:"2",name:"PUBG Korea",packageName:"com.pubg.krmobile",version:"1.1",apkUrl:"https://github.com/AlexMohamedAfk/root/releases/download/SpaceX/KR.apk",iconUrl:"https://raw.githubusercontent.com/AlexMohamedAfk/root/main/KR.png",isSafe:true,statusLabel:"Safe",lastUpdate:"Updated"},
+            {id:"3",name:"PUBG Taiwan",packageName:"com.rekoo.pubgm",version:"1.1",apkUrl:"https://github.com/AlexMohamedAfk/root/releases/download/SpaceX/TW.apk",iconUrl:"https://raw.githubusercontent.com/AlexMohamedAfk/root/main/TW.png",isSafe:true,statusLabel:"Safe",lastUpdate:"Updated"},
+            {id:"4",name:"PUBG Vietnam",packageName:"com.vng.pubgmobile",version:"1.0",apkUrl:"https://github.com/AlexMohamedAfk/root/releases/download/v3.1.0/VN.apk",iconUrl:"https://raw.githubusercontent.com/AlexMohamedAfk/root/main/VN.png",isSafe:false,statusLabel:"Risk",lastUpdate:"NotUpdated"}
+        ];
+        const MIRRORS = {
+            direct: url => url,
+            ghproxy: url => "https://mirror.ghproxy.com/" + url,
+            ghfast: url => "https://ghfast.top/" + url,
+            gitmirror: url => "https://hub.gitmirror.com/" + url
+        };
+        const ACCENTS = ["#0071e3","#ef4444","#10b981","#a855f7"];
+        const BADGE_COLORS = [
+            {bg:"#0071e31a",border:"#0071e34d",text:"#60aaff"},
+            {bg:"#ef44441a",border:"#ef44444d",text:"#f87171"},
+            {bg:"#10b9811a",border:"#10b9814d",text:"#34d399"},
+            {bg:"#a855f71a",border:"#a855f74d",text:"#c084fc"}
+        ];
+        const STARS_MAP = {"1":"&#9733;&#9734;&#9734;&#9734;&#9734;","2":"&#9733;&#9733;&#9734;&#9734;&#9734;","3":"&#9733;&#9733;&#9733;&#9734;&#9734;","4":"&#9733;&#9733;&#9733;&#9733;&#9734;","5":"&#9733;&#9733;&#9733;&#9733;&#9733;"};
+        function renderStore(data, t) {
+            if (!t) { var lc = detectLang ? detectLang() : "en"; t = LANGS[lc] || LANGS["en"]; }
+            const grid = document.getElementById('store-grid');
+            if (!grid) return;
+            const svgDl = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3"/><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/></svg>`;
+            grid.innerHTML = data.map((item, i) => {
+                const acc = ACCENTS[i % ACCENTS.length];
+                const bc = BADGE_COLORS[i % BADGE_COLORS.length];
+                const stars = item.stars ? STARS_MAP[String(item.stars)] : (item.isSafe ? STARS_MAP["5"] : STARS_MAP["3"]);
+                const updated = item.lastUpdate === 'Updated';
+                const safeColor  = item.isSafe  ? '#22c55e' : '#ef4444';
+                const safeBg     = item.isSafe  ? '#22c55e18' : '#ef444418';
+                const statusColor = updated ? '#3b82f6' : '#f59e0b';
+                const statusBg    = updated ? '#3b82f618' : '#f59e0b18';
+                return `<div class="mod-card" style="--mod-accent:${acc}">
+                    <div class="mod-card-top">
+                        <div class="mod-icon-box">
+                            <img src="${item.iconUrl}" alt="${item.name}" style="width:100%;height:100%;object-fit:cover;border-radius:8px" onerror="this.style.display='none'">
+                        </div>
+                        <span class="mod-type-badge" style="background:${bc.bg};border:1px solid ${bc.border};color:${bc.text}">${t.badge_moded||'Moded APK'}</span>
+                    </div>
+                    <h3 class="mod-name">${item.name}</h3>
+                    <p class="mod-desc" style="font-size:0.75rem;color:#666;margin-bottom:0.6rem">${item.packageName}</p>
+                    <div class="mod-meta" style="flex-wrap:wrap;gap:0.4rem;margin-bottom:0.6rem">
+                        <span class="mod-meta-item">v${item.version}</span>
+                        <span style="font-size:0.7rem;padding:2px 8px;border-radius:20px;background:${safeBg};color:${safeColor};border:1px solid ${safeColor}40">${item.isSafe ? '✓ Safe' : '⚠ Risk'}</span>
+                        <span style="font-size:0.7rem;padding:2px 8px;border-radius:20px;background:${statusBg};color:${statusColor};border:1px solid ${statusColor}40">${updated ? '● Latest' : '○ Outdated'}</span>
+                        <span class="mod-stars" style="color:#f59e0b;margin-left:auto">${stars}</span>
+                    </div>
+                    <div style="font-size:0.7rem;color:#8e8ea0;margin-bottom:0.3rem">${t.store_label||'Select Mirror:'}</div>
+                    <select class="mirror-select" id="mirror-${item.id}" onchange="updateDlLink('${item.id}','${item.apkUrl}')" style="margin-bottom:0.6rem">
+                        <option value="direct">${t.mirror_direct||'Direct (GitHub)'}</option>
+                        <option value="ghproxy">${t.mirror_china1||'China Mirror 1'}</option>
+                        <option value="ghfast">${t.mirror_china2||'China Mirror 2'}</option>
+                        <option value="gitmirror">${t.mirror_china3||'China Mirror 3'}</option>
+                    </select>
+                    <a href="${item.apkUrl}" id="dl-${item.id}" class="mod-download-btn" download>${svgDl} ${t.store_dl||'Download'}</a>
+                </div>`;
+            }).join('');
+        }
+        function updateDlLink(id, baseUrl) {
+            const sel = document.getElementById('mirror-' + id);
+            const link = document.getElementById('dl-' + id);
+            link.href = MIRRORS[sel.value](baseUrl);
+        }
+        renderStore(STORE_DATA);
+        </script>
+                <!-- Volt-inspired particles, cursor and progress (adapted to SpaceX colors) -->
+                <style>
+                @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Outfit:wght@300;400;500;600;700&display=swap');
+                :root{--bg:#050811;--bg-2:#081625;--bg-3:#111c2d;--b1:#0f1b2d;--b2:#14243b;--hi:#e7f2ff;--hi-2:#ffffff;--t2:#9fb7d9;--t3:#5a7ca5;--accent:#00aeff;--accent-2:#71d8ff;--glow-clr:rgba(113,216,255,.1);}
+                *,*::before,*::after{box-sizing:border-box;}
+                html{scroll-behavior:smooth;}
+                body{margin:0;background:var(--bg);color:var(--hi);font-family:'Outfit',sans-serif;overflow-x:hidden;cursor:none;}
+                .spacex-root{position:relative;z-index:1;}
+                #topnav{position:fixed;top:0;left:0;right:0;z-index:600;padding:22px 60px;display:flex;align-items:center;justify-content:space-between;transition:padding .4s,backdrop-filter .4s,background .4s,border-bottom .2s;}
+                #topnav.scrolled{background:rgba(5,5,5,.93);backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px);border-bottom:1px solid var(--b1);padding:14px 60px;}
+                .logo-lnk{font-family:'Bebas Neue',sans-serif;font-size:28px;letter-spacing:8px;color:var(--hi);text-decoration:none;position:relative;}
+                .logo-lnk::after{content:'r';font-size:9px;vertical-align:super;color:var(--t3);letter-spacing:0;font-family:'Outfit',sans-serif;margin-left:1px;}
+                .nav-ul{display:flex;gap:40px;list-style:none;margin:0;padding:0;}
+                .nav-ul a{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--t2);text-decoration:none;transition:color .2s;}
+                .nav-ul a:hover{color:var(--hi);}
+                .nav-dl{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:2px;text-transform:uppercase;padding:10px 24px;border:1px solid var(--b2);color:var(--hi);background:transparent;text-decoration:none;overflow:hidden;position:relative;}
+                .nav-dl::before{content:'';position:absolute;inset:0;background:var(--hi);transform:translateY(101%);transition:transform .25s ease;}
+                .nav-dl:hover{color:var(--bg);}
+                .nav-dl:hover::before{transform:translateY(0);}
+                .nav-dl span{position:relative;z-index:1;}
+                .hero-section{min-height:100vh;display:grid;grid-template-rows:1fr auto;padding:0 60px 80px;position:relative;overflow:hidden;z-index:2;}
+                .hero-inner{display:flex;flex-direction:column;justify-content:flex-end;padding-top:120px;}
+                .hero-above{display:flex;align-items:center;gap:16px;margin-bottom:32px;opacity:1;animation:none;transform:none;}
+                .hero-above-bar{width:40px;height:1px;background:var(--t3);}
+                .hero-above-txt{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:5px;text-transform:uppercase;color:var(--t3);}
+                .live-dot{width:4px;height:4px;border-radius:50%;background:var(--accent);animation:dotpulse 2s ease infinite;margin-left:4px;}
+                @keyframes dotpulse{0%,100%{box-shadow:0 0 0 0 rgba(0,113,227,.5);}50%{box-shadow:0 0 0 8px rgba(0,113,227,0);}}
+                @keyframes slideup{from{opacity:0;transform:translateY(24px);}to{opacity:1;transform:translateY(0);}}
+                .hero-h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(60px,10vw,132px);line-height:.88;letter-spacing:-1px;opacity:1;animation:none;transform:none;}
+                .hero-h1 .w1{display:block;color:var(--hi);} .hero-h1 .w2{display:block;color:transparent;-webkit-text-stroke:1px var(--accent);-webkit-text-fill-color:transparent;} .hero-h1 .w3{display:block;color:transparent;-webkit-text-stroke:1px var(--t3);}
+                .hero-lower{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:end;margin-top:56px;padding-top:40px;border-top:1px solid var(--b1);opacity:1;animation:none;transform:none;}
+                .hero-p{font-size:15px;color:var(--t2);line-height:1.8;max-width:480px;}
+                .hero-btns{display:flex;gap:16px;align-items:center;justify-content:flex-end;}
+                .btn-get{display:inline-flex;align-items:center;gap:10px;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:2px;text-transform:uppercase;padding:16px 36px;background:var(--accent);color:var(--bg);text-decoration:none;font-weight:700;position:relative;overflow:hidden;transition:background .2s,transform .2s;box-shadow:0 12px 30px rgba(0,174,255,.18);}
+                .btn-get::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(255,255,255,.22),transparent);transform:translateX(-120%);transition:transform .5s ease;}
+                .btn-get:hover{background:var(--accent-2);transform:scale(1.02);}
+                .btn-get:hover::after{transform:translateX(120%);}
+                .btn-ghost-lnk{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--accent-2);text-decoration:none;display:flex;align-items:center;gap:8px;transition:color .2s;white-space:nowrap;}
+                .btn-ghost-lnk .arr{transition:transform .2s;}
+                .btn-ghost-lnk:hover{color:var(--hi);}.btn-ghost-lnk:hover .arr{transform:translateX(4px);}
+                .mq{border-top:1px solid var(--b1);border-bottom:1px solid var(--b1);background:var(--bg-2);overflow:hidden;padding:13px 0;position:relative;z-index:2;}
+                .mq::before,.mq::after{content:'';position:absolute;top:0;width:80px;height:100%;z-index:2;}
+                .mq::before{left:0;background:linear-gradient(90deg,var(--bg-2),transparent);}
+                .mq::after{right:0;background:linear-gradient(-90deg,var(--bg-2),transparent);}
+                .mq-inner{display:flex;width:max-content;animation:scrollticker 28s linear infinite;}
+                .mq-inner:hover{animation-play-state:paused;}
+                .mq-item{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--t3);padding:0 24px;border-right:1px solid var(--b1);white-space:nowrap;}
+                .mq-item.bright{color:var(--t2);}
+                @keyframes scrollticker{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+                .nums-strip{display:grid;grid-template-columns:repeat(4,1fr);position:relative;z-index:2;}
+                .nblock{padding:52px 48px;border-right:1px solid var(--b1);border-bottom:1px solid var(--b1);position:relative;overflow:hidden;transition:background .3s;cursor:default;}
+                .nblock:last-child{border-right:none;}
+                .nblock::before{content:'';position:absolute;bottom:0;left:0;width:0;height:1px;background:linear-gradient(90deg,var(--accent),transparent);transition:width .6s ease;}
+                .nblock:hover{background:var(--bg-2);}.nblock:hover::before{width:100%;}
+                .nblock-val{font-family:'Bebas Neue',sans-serif;font-size:68px;line-height:1;color:var(--hi-2);letter-spacing:1px;}
+                .nblock-val em{font-style:normal;font-size:36px;color:var(--t3);}
+                .nblock-lbl{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--t3);margin-top:10px;}
+                .section.section-alt{background:transparent;}.features-grid{gap:1rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));}
+                .feature-card{background:var(--bg);border:1px solid var(--b1);border-radius:18px;padding:2rem 1.75rem;transition:transform .25s,border-color .25s,box-shadow .25s;position:relative;overflow:hidden;}
+                .feature-card:hover{transform:scale(1.03) translateY(-4px);border-color:var(--accent);box-shadow:0 10px 40px rgba(0,113,227,.18);}
+                .feature-icon{color:var(--accent);background:rgba(0,113,227,.12);border-radius:14px;justify-content:center;align-items:center;width:52px;height:52px;margin-bottom:1.25rem;display:inline-flex;transition:box-shadow .25s;}
+                .feature-card:hover .feature-icon{box-shadow:0 0 28px rgba(0,113,227,.25);}
+                .feature-title{color:var(--hi);margin:0 0 .6rem;font-size:1.1rem;font-weight:700;}
+                .feature-desc{color:var(--t2);margin:0;font-size:.95rem;line-height:1.7;}
+                .pricing-card{background:var(--bg);border:1px solid var(--b1);border-radius:22px;padding:2.5rem 2rem 2rem;transition:transform .25s,box-shadow .25s;position:relative;}
+                .pricing-card:hover{transform:scale(1.03) translateY(-4px);box-shadow:0 12px 50px rgba(0,113,227,.16);}
+                .pricing-card--featured{border-color:var(--accent);box-shadow:0 0 60px rgba(0,113,227,.22);}
+                .pricing-badge{background:var(--accent);color:#fff;border-radius:999px;padding:.3rem 1rem;font-size:.72rem;font-weight:700;position:absolute;top:-14px;left:50%;transform:translateX(-50%);}
+                .pricing-plan{color:var(--accent-2);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.6rem;font-size:.85rem;font-weight:600;}
+                .pricing-price{color:var(--hi);margin-bottom:1.75rem;font-size:3rem;font-weight:800;letter-spacing:-.04em;}
+                .pricing-btn{color:var(--accent-2);background:rgba(0,113,227,.12);border:1px solid rgba(0,113,227,.25);border-radius:12px;padding:.8rem 1.5rem;font-size:.9rem;font-weight:600;text-decoration:none;display:block;transition:background .2s,border-color .2s,transform .2s;}
+                .pricing-btn:hover{background:rgba(0,113,227,.18);border-color:var(--accent);transform:scale(1.02);}
+                .pricing-btn--featured{color:#fff;background:var(--accent);border-color:var(--accent);box-shadow:0 0 24px rgba(0,113,227,.25);}
+                .pricing-btn--featured:hover{background:#0087ff;border-color:#0087ff;transform:scale(1.03);box-shadow:0 0 36px rgba(0,113,227,.3);}
+                .footer{background:transparent;border-top:1px solid rgba(255,255,255,.08);padding:4rem 1.5rem 2rem;}
+                .footer-logo{background:linear-gradient(135deg,var(--accent),var(--accent-2));-webkit-background-clip:text;background-clip:text;color:transparent;font-size:1.3rem;font-weight:800;letter-spacing:-.02em;}
+                .footer-tagline,.footer-link,.footer-copy{color:var(--t2);}
+                .footer-links-title{color:var(--accent-2);font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:1rem;}
+                .footer-link:hover{color:var(--hi);}
+                #pgbar{position:fixed;top:0;left:0;height:2px;background:linear-gradient(90deg,var(--accent),var(--accent-2));z-index:9997;width:0;}
+                #cdot{position:fixed;width:6px;height:6px;background:var(--hi);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);mix-blend-mode:difference;}
+                #cring{position:fixed;width:32px;height:32px;border:1px solid rgba(240,240,245,.18);border-radius:50%;pointer-events:none;z-index:9998;transform:translate(-50%,-50%);transition:width .35s cubic-bezier(.23,1,.32,1),height .35s cubic-bezier(.23,1,.32,1),border-color .25s;}
+                #cring.hov{width:58px;height:58px;border-color:rgba(240,240,245,.38);}
+                #cring.clk{width:18px;height:18px;border-color:rgba(240,240,245,.7);}
+                #ptcl{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.32;}
+                @media (max-width:960px){#topnav,#topnav.scrolled{padding-left:24px;padding-right:24px;}.nav-ul,.nav-dl{display:none;}.hero-section,.section,.mods-section,.pricing-pg,.faq-pg,.dl-pg{padding-left:24px;padding-right:24px;}.hero-lower{grid-template-columns:1fr;gap:28px;}.hero-btns{justify-content:flex-start;}.nums-strip{grid-template-columns:1fr 1fr;}.nblock:nth-child(2){border-right:none;}.features-grid{grid-template-columns:1fr;}.pricing-grid{grid-template-columns:1fr;}.footer-inner{grid-template-columns:1fr;text-align:center;gap:20px;}.footer-copy{text-align:center;}}</style>
+
+                <script>
+                (function initParticles(){
+                    var c=document.createElement('canvas'); c.id='ptcl'; document.body.appendChild(c);
+                    var ctx=c.getContext('2d'); var W,H,pts=[];
+                    function setup(){ W=c.width=window.innerWidth; H=c.height=window.innerHeight; pts=[]; for(var i=0;i<55;i++){ pts.push({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.3,vy:(Math.random()-.5)*.3,r:Math.random()*1.2+.3}); } }
+                    setup(); window.addEventListener('resize', setup);
+                    function tick(){ ctx.clearRect(0,0,W,H); for(var i=0;i<pts.length;i++){ var p=pts[i]; p.x+=p.vx; p.y+=p.vy; if(p.x<0||p.x>W) p.vx*=-1; if(p.y<0||p.y>H) p.vy*=-1; ctx.beginPath(); ctx.arc(p.x,p.y,p.r,0,Math.PI*2); ctx.fillStyle='rgba(240,240,245,.45)'; ctx.fill(); for(var j=i+1;j<pts.length;j++){ var q=pts[j],dx=p.x-q.x,dy=p.y-q.y,d=Math.sqrt(dx*dx+dy*dy); if(d<120){ ctx.beginPath(); ctx.moveTo(p.x,p.y); ctx.lineTo(q.x,q.y); ctx.strokeStyle='rgba(240,240,245,'+(0.06*(1-d/120)).toFixed(3)+')'; ctx.lineWidth=.5; ctx.stroke(); } } } requestAnimationFrame(tick);} tick();
+                })();
+
+                /* progress bar */
+                (function(){ var pgb=document.getElementById('pgbar')||document.createElement('div'); if(!pgb.parentElement) document.body.appendChild(pgb); window.addEventListener('scroll', function(){ var pct=window.scrollY/(document.body.scrollHeight-window.innerHeight||1); pgb.style.width=(pct*100)+'%'; },{passive:true}); })();
+
+                /* custom cursor */
+                (function(){
+                    var cdot=document.createElement('div'); cdot.id='cdot'; document.body.appendChild(cdot);
+                    var cring=document.createElement('div'); cring.id='cring'; document.body.appendChild(cring);
+                    var mx=-100,my=-100,rx=-100,ry=-100;
+                    document.addEventListener('mousemove',function(e){ mx=e.clientX; my=e.clientY; cdot.style.left=mx+'px'; cdot.style.top=my+'px'; });
+                    function lerp(){ rx+=(mx-rx)*.12; ry+=(my-ry)*.12; cring.style.left=rx+'px'; cring.style.top=ry+'px'; requestAnimationFrame(lerp); } lerp();
+                    document.addEventListener('mousedown',function(){ cring.classList.add('clk'); }); document.addEventListener('mouseup',function(){ cring.classList.remove('clk'); });
+                    var clickables=document.querySelectorAll('a,button,.feature-card,.mod-card,.pricing-card,.store-card'); for(var i=0;i<clickables.length;i++){ clickables[i].addEventListener('mouseenter',function(){ cring.classList.add('hov'); }); clickables[i].addEventListener('mouseleave',function(){ cring.classList.remove('hov'); }); }
+                    var nav = document.getElementById('topnav');
+                    window.addEventListener('scroll', function(){ if(!nav) return; if(window.scrollY > 50) nav.classList.add('scrolled'); else nav.classList.remove('scrolled'); }, {passive:true});
+                    function detectLang(){ var raw = navigator.language || navigator.userLanguage || 'en'; var tag = raw.slice(0,2).toLowerCase(); return ['ar','zh','ru'].includes(tag) ? tag : 'en'; }
+                    function trySwitch(lang){ if(typeof switchLang==='function'){ switchLang(lang); return true; } return false; }
+                    function applyBrowserLang(){ var lang = detectLang(); document.documentElement.lang = lang; document.documentElement.dir = (lang==='ar' ? 'rtl' : 'ltr'); if(!trySwitch(lang)){ window.addEventListener('load', function(){ trySwitch(lang); }); setTimeout(function(){ trySwitch(lang); }, 800); } var switcher = document.querySelector('.sx-lang-switcher'); if(switcher) switcher.remove(); }
+                    function initCounters(){ var counters = document.querySelectorAll('.ctr'); if(!counters.length) return; counters.forEach(function(el){ var target = parseInt(el.dataset.to,10)||0; if(target>0){ el.textContent = target; } }); }
+                    if(document.readyState === 'complete' || document.readyState === 'interactive'){ applyBrowserLang(); initCounters(); } else { document.addEventListener('DOMContentLoaded', function(){ applyBrowserLang(); initCounters(); }); }
+                })();
+                </script>
+        <!--/$-->
+        <script class="$tsr" id="$tsr-stream-barrier">
+            (self.$R = self.$R || {})["tsr"] = [];
+            self.$_TSR = {
+                h() {
+                    this.hydrated = !0,
+                    this.c()
+                },
+                e() {
+                    this.streamEnded = !0,
+                    this.c()
+                },
+                c() {
+                    this.hydrated && this.streamEnded && (delete self.$_TSR,
+                    delete self.$R.tsr)
+                },
+                p(e) {
+                    this.initialized ? e() : this.buffer.push(e)
+                },
+                buffer: []
+            };
+            ;$_TSR.router = ($R => $R[0] = {
+                manifest: $R[1] = {
+                    routes: $R[2] = {
+                        __root__: $R[3] = {
+                            preloads: $R[4] = ["./assets/main-CYXXZbJT.js"],
+                            assets: $R[5] = [$R[6] = {
+                                tag: "link",
+                                attrs: $R[7] = {
+                                    rel: "stylesheet",
+                                    href: "",
+                                    type: "text/css"
+                                }
+                            }, $R[8] = {
+                                tag: "script",
+                                attrs: $R[9] = {
+                                    type: "module",
+                                    async: !0
+                                },
+                                children: "import(\"./assets/main-CYXXZbJT.js\")"
+                            }]
+                        },
+                        "/": $R[10] = {
+                            preloads: $R[11] = ["./assets/index-PuXPswiH.js"]
+                        }
+                    }
+                },
+                matches: $R[12] = [$R[13] = {
+                    i: "__root__
