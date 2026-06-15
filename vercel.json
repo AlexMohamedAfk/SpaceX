@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/v1/projects/(.*)", "destination": "https://firestore.googleapis.com/v1/projects/$1" }
+  ]
+}
